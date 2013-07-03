@@ -47,7 +47,6 @@ end
 gem 'blacklight'
 gem 'hydra-head'
 gem 'sufia', github: 'projecthydra/sufia', branch: 'rails4'
-gem 'blacklight_advanced_search', github: 'projectblacklight/blacklight_advanced_search', branch: 'rails4'
 
 gem "devise", '3.0.0.rc'
 gem "devise-guests", "~> 0.3"
