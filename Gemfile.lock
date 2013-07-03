@@ -1,12 +1,16 @@
-PATH
-  remote: ../blacklight_advanced_search
+GIT
+  remote: git://github.com/projectblacklight/blacklight_advanced_search.git
+  revision: b8c86656da052cf94854f1c81495f58be977273f
+  branch: rails4
   specs:
     blacklight_advanced_search (2.0.0)
       blacklight (~> 4.0)
       parslet
 
-PATH
-  remote: ../sufia
+GIT
+  remote: git://github.com/projecthydra/sufia.git
+  revision: 4d54ad3aede7ce9bb49d7646c11067dbf3896318
+  branch: rails4
   specs:
     sufia (2.1.0.beta)
       blacklight (~> 4.0)
@@ -91,9 +95,6 @@ GEM
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
     builder (3.1.4)
-    byebug (1.5.0)
-      columnize (~> 0.3.6)
-      debugger-linecache (~> 1.2.0)
     cancan (1.6.10)
     carrierwave (0.8.0)
       activemodel (>= 3.2.0)
@@ -108,9 +109,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
-    columnize (0.3.6)
     daemons (1.1.9)
-    debugger-linecache (1.2.0)
     deprecation (0.0.5)
       activesupport
     devise (3.0.0.rc)
@@ -347,10 +346,10 @@ DEPENDENCIES
   blacklight
   blacklight_advanced_search!
   bootstrap-sass
-  byebug
   coffee-rails (~> 4.0.0)
   devise (= 3.0.0.rc)
   devise-guests (~> 0.3)
+  font-awesome-sass-rails
   hydra-head
   jbuilder (~> 1.2)
   jettywrapper
