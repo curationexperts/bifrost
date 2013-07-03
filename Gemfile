@@ -46,9 +46,10 @@ end
 #
 gem 'blacklight'
 gem 'hydra-head'
-# gem 'sufia', github: 'projecthydra/sufia', branch: 'rails4'
-gem 'blacklight_advanced_search', github: 'projectblacklight/blacklight_advanced_search', branch: 'rails4'#path: '../blacklight_advanced_search'
-#gem 'blacklight_advanced_search', path: '../blacklight_advanced_search'
+#gem 'sufia', github: 'projecthydra/sufia', branch: 'rails4'
+gem 'sufia', path: '../sufia'
+#gem 'blacklight_advanced_search', github: 'projectblacklight/blacklight_advanced_search', branch: 'rails4', require: false#path: '../blacklight_advanced_search'
+gem 'blacklight_advanced_search', path: '../blacklight_advanced_search'#, require: false
 
 gem "devise", '3.0.0.rc'
 gem "devise-guests", "~> 0.3"
@@ -57,7 +58,5 @@ gem "bootstrap-sass"
 group :development, :test do
   gem "rspec-rails"
   gem "jettywrapper"
-end
-
-group :development, :test do
+  gem 'byebug'
 end
