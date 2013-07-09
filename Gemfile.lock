@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/projecthydra/sufia.git
-  revision: 08caf151f84611b165820ad0556fa54eda381770
-  ref: 08caf15
+  revision: 694c6a67c9a966f848c2886c0b9d19bcc4bcd668
+  ref: 694c6a6
   specs:
     sufia (2.1.0.beta)
       blacklight (~> 4.0)
@@ -155,7 +155,7 @@ GEM
     hydra-batch-edit (1.0.1)
       blacklight
       hydra-collections
-    hydra-collections (0.0.2)
+    hydra-collections (1.0.0)
       blacklight
       hydra-head
     hydra-core (6.3.1)

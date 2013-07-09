@@ -47,7 +47,7 @@ end
 #
 gem 'blacklight'
 gem 'hydra-head'
-gem 'sufia', github: 'projecthydra/sufia', :ref => '08caf15'
+gem 'sufia', github: 'projecthydra/sufia', :ref => '694c6a6'
 #branch: 'rails4'
 
 gem "devise", '3.0.0.rc'
