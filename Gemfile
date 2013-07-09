@@ -5,6 +5,7 @@ gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'mysql2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -16,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -46,7 +47,8 @@ end
 #
 gem 'blacklight'
 gem 'hydra-head'
-gem 'sufia', github: 'projecthydra/sufia', branch: 'rails4'
+gem 'sufia', github: 'projecthydra/sufia', :ref => '08caf15'
+#branch: 'rails4'
 
 gem "devise", '3.0.0.rc'
 gem "devise-guests", "~> 0.3"
