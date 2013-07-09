@@ -1,0 +1,11 @@
+en:
+  sufia:
+    product_name: "The Hydra Sandbox"
+    account_name: "Account Id"
+    institution_name: "Hydra"
+    deposit_agreement:  "DCE's Deposit Agreement"
+    share_button:       "Upload"
+    directory:
+      suffix:           '@curationexperts.com'
+
+
