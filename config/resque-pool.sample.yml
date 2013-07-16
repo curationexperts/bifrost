@@ -1,0 +1,18 @@
+# Sample config/resque-pool.yml. 
+# This file details your desired worker counts. 
+# The YAML file supports both using root level defaults as well as 
+# environment specific overrides (RACK_ENV, RAILS_ENV, and RESQUE_ENV environment variables 
+# can be used to determine environment). For queues called foo, bar, and baz:
+
+# This config will start four workers.
+# One will only work on the foo queue, two more will only work on the bar queue, the fourth
+# will work on any of the three queues 
+
+foo: 1
+bar: 2
+"foo,bar,baz": 1
+
+# In this config, all four workers are shared
+
+production:
+  "foo,bar,baz": 4
