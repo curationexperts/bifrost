@@ -54,6 +54,8 @@ gem "devise", '3.0.0.rc'
 gem "devise-guests", "~> 0.3"
 gem "bootstrap-sass"
 gem 'font-awesome-sass-rails'
+gem 'kaminari', github: 'harai/kaminari', branch: 'route_prefix_prototype'
+
 
 group :development, :test do
   gem "rspec-rails"
