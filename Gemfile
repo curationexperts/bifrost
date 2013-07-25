@@ -22,6 +22,9 @@ gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# Use resque-pool to start resque workers
+gem 'resque-pool'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 #gem 'turbolinks'
 
@@ -47,7 +50,8 @@ end
 #
 gem 'blacklight'
 gem 'hydra-head'
-gem 'sufia', github: 'projecthydra/sufia', :ref => 'd4e5e1c'
+# gem 'sufia', github: 'projecthydra/sufia', :ref => 'd4e5e1c'
+gem 'sufia', github: 'projecthydra/sufia', :ref => 'd01cb86bee'
 #branch: 'rails4'
 
 gem "devise", '3.0.0.rc'
