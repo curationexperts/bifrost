@@ -50,11 +50,9 @@ end
 #
 gem 'blacklight'
 gem 'hydra-head'
-# gem 'sufia', github: 'projecthydra/sufia', :ref => 'd4e5e1c'
-gem 'sufia', github: 'projecthydra/sufia', :ref => 'd01cb86bee'
-#branch: 'rails4'
+gem 'sufia'
 
-gem "devise", '3.0.0.rc'
+gem "devise"
 gem "devise-guests", "~> 0.3"
 gem "bootstrap-sass"
 gem 'font-awesome-sass-rails'
