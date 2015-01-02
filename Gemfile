@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.3'
+gem 'rails'
+#, '4.0.3'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -50,7 +51,7 @@ end
 #
 gem 'blacklight'
 gem 'hydra-head'
-gem 'sufia'
+gem 'sufia', github: 'projecthydra/sufia', ref: 'v6.0.0.beta1'
 
 gem "devise"
 gem "devise-guests", "~> 0.3"
